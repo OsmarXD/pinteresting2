@@ -80,7 +80,7 @@ Rails.application.configure do
   
   # Require for Heroku
   # Note to set this to your actual host
-  config.action_mailer.default_url_options = { host: 'pinteresting2dcx.com' }
+  # config.action_mailer.default_url_options = { host: 'pinteresting2dcx.com' }
 
   #Sets Paperclip to upload  images to Amazon S3
   config.paperclip_defaults = {
