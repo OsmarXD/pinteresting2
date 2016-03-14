@@ -80,7 +80,7 @@ Rails.application.configure do
   
   # Require for Heroku
   # Note to set this to your actual host
-  config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
+  config.action_mailer.default_url_options = { host: 'pinteresting2dcx.com' }
 
   config.paperclip_defaults = {
   :storage => :s3,
